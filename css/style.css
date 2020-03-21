@@ -1,0 +1,504 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-navigatie{
+    width: 100%;
+    height: 160px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .10);
+    
+}
+
+.lista-navigatie{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+  
+height: 70px;
+}   
+
+.logo{
+   margin: 0 auto auto;
+    height: 70px;
+    width: 580px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.meniu ul{
+   
+    display: flex;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.meniu ul li a{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696969;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: inherit;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main{
+    background-image: url(imagini/fundal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+
+
+.fashion{
+    width: 100%;
+    height: 150px;
+}
+
+
+.rand1{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.line{
+    width: 35%;
+    border-top: 2px solid white;
+}
+
+.ColectieNoua {
+    width: 30%;
+    height: 200px;
+    background-image: url(../imagini/colectie.jpg);
+    margin: 5% 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+   
+    background-size: cover;
+   
+     
+}
+
+.VeziProduse{
+    border: 2px dashed whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 40%;
+    cursor: pointer;
+
+}
+
+.Magazin{
+    width: 30%;
+    margin: 5% 5%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    background-image: url(../imagini/promotii.jpg);
+    background-size: cover;
+    transition: transform 1.5s;
+}
+
+.Magazin:hover{
+ filter: url(../imagini/promotii.jpg);
+ -webkit-filter: grayscale(100%);
+ -moz-filter:    grayscale(100%);
+ -ms-filter:     grayscale(100%);
+ -o-filter:      grayscale(100%);
+ filter: gray;
+}
+
+.ColectieNoua:hover{
+    filter: url(../imagini/colectie.jpg);
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    filter: gray;
+}
+
+ .Magazin h2, .ColectieNoua h2{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, .50);
+    text-align: center;
+
+}
+
+.Magazin button ,.ColectieNoua button{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.rand2{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ 
+
+}
+
+.rand2 h1{
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.garderobra{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #464545;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+
+}
+
+.rand3{
+    width: 100%;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ceasuri{
+    width: 400px;
+    min-height: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+    margin:5% 2.5%;
+}
+
+.adidasi{
+    width: 400px;
+    margin:5% 2.5%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+  
+}
+
+.costume{
+    width: 400px;
+    margin:5% 2.5%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+   
+   
+ 
+}
+
+.hoverceasuri{
+    display: none;
+    color: blue;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 50%;
+    left: 0%;
+    bottom: 0%;
+    top: 60%;
+
+}
+
+.hovercostume{
+    display: none;
+    color: rebeccapurple;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 50%;
+    left: 0%;
+    bottom: 0%;
+    top: 60%;
+}
+
+.hoveradidasi{
+    display: none;
+    color: blue;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 50%;
+    left: 0%;
+    bottom: 0%;
+    top: 60%;
+}
+
+.ceasuri:hover {
+    filter: url(../imagini/ceasuri.jpg);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    cursor: pointer;
+}
+.costume:hover {
+    filter: url(../imagini/costume.jpg);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    cursor: pointer;
+}
+.adidasi:hover {
+    filter: url(../imagini/adidasi.jpg);
+    -webkit-filter: grayscale(100%);
+
+    filter: gray;
+    cursor: pointer;
+}
+
+.ceasuri:hover .hoverceasuri{
+    display: block;
+}
+
+.costume:hover .hovercostume{
+    display: block;
+}
+
+.adidasi:hover .hoveradidasi{
+    display: block;
+}
+
+.rand4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 430px;
+    
+}
+
+.camasi{
+    width: 400px;
+    margin:5% 2.5%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tricouri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 2.5%;
+    height: 400px;
+    text-align: center;
+    width: 400px;
+}
+
+.pantaloni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 2.5%;
+    height: 400px;
+    text-align: center;
+    width: 400px;
+}
+
+.hovercamasi{
+    display: none;
+    left: 0%;
+    color: blue;
+    position: absolute;
+    right: 50%;
+    top: 60%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hovertricouri{
+    display: none;
+    left: 0%;
+    color: black;
+    position: absolute;
+    right: 50%;
+    top: 60%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hoverpantaloni{
+    display: none;
+    left: 0%;
+    color: blue;
+    position: absolute;
+    right: 50%;
+    top: 60%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.camasi:hover .hovercamasi{display: block;}
+.pantaloni:HOVER .hoverpantaloni{display: block;}
+.tricouri:hover .hovertricouri{display: block;}
+
+.pantaloni:hover {
+    filter: url(../imagini/pantaloni.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.camasi:hover {
+    filter: url(../imagini/camasi.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.tricouri:hover {
+    filter: url(../imagini/tricouri.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
+.rand5{
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.reduceri{
+    width: 100%;
+
+   cursor: pointer;
+    background-image: url(../imagini/reduceri.jpg);
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    width: 65%;
+    margin: 2% 5%;
+    margin-bottom: 50px;
+}
+
+.reduceri h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    color: red;
+    top: 60%;
+    bottom: 0%;
+    right: 0%;
+    left: 50%;
+    margin-top:460px;
+}
+
+.reduceri:hover{
+   border: 15px solid black;
+}
+
+.subsol{
+    height: 120px;
+    width: 100%;
+    background-color: #464545;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url(../imagini/fundal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.copyright{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+}
